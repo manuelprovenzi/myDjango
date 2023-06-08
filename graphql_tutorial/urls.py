@@ -29,6 +29,8 @@ urlpatterns = [
     path("manu/telefoni",viewManu.telefono),
     path("manu/libri",viewManu.libri),
     path("manu/cd",viewManu.cd),
+    path("manu/libri/titolo=<titolo>",viewManu.displayTitolo, name = "display"),
+    path("manu/libri/id=<id>",viewManu.displayId, name = "display")
     
 
 ]

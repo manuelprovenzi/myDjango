@@ -9,7 +9,7 @@
 <body>
 
   <div class="divTitle">
-    <h1>Libri</h1>
+    <h1>Libro</h1>
   </div>
 
 
@@ -28,17 +28,15 @@
       </thead>
       <tbody>
         {% for x in libros %}
-        
         <tr>
-          <td><textarea rows="3" readonly>{{x.id}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.autore}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.titolo}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.genere}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.prezzo}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.data_pubblicazione}}</textarea></td>
-          <td><textarea rows="3" readonly>{{x.descrizione}}</textarea></td>
-        </tr>
-
+            <td><textarea rows="3" readonly>{{x.id}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.autore}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.titolo}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.genere}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.prezzo}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.data_pubblicazione}}</textarea></td>
+            <td><textarea rows="3" readonly>{{x.descrizione}}</textarea></td>
+          </tr>
         {% endfor %}
       </tbody>
     </table>

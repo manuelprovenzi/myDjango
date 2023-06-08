@@ -4,6 +4,7 @@ from django.template import loader
 from .models import Telefono
 from .models import Libro
 from .models import Cd
+from django.core import serializers
 
 from django.template.response import TemplateResponse
 from .xmlFile import XMLSerializer as Serializer
@@ -25,9 +26,11 @@ def libri(request):
     
     libros = Libro.objects.all().values()
   
+  libriJson = serializers.serialize("json",Libro.objects.all())
   template = 'all_libri.html'
   context = {
     'libros': libros,
+    'libriJson':libriJson
   }
   return TemplateResponse(request,template,context)
 
@@ -55,6 +58,7 @@ def cd(request):
   template = 'all_cd.html'
   context = {
     'cds': cds,
+    
   }
   return TemplateResponse(request,template,context)
 
@@ -69,3 +73,24 @@ def loadCd(path):
     
   return listCd 
     
+    
+    
+def displayId(request,id):
+  objSelected = Libro.objects.filter(id = id)
+  template = 'libro.html'
+  context = {
+    'libros': objSelected.all().values(), #è uno solo ma in una query set
+  }
+  
+  return TemplateResponse(request,template,context)
+
+
+def displayTitolo(request,titolo):
+  objSelected = Libro.objects.filter(titolo = titolo)
+  template = 'libro.html'
+  context = {
+    'libros': objSelected.all().values(), #è uno solo ma in una query set
+  }
+  
+  return TemplateResponse(request,template,context)
+

@@ -30,13 +30,13 @@
         {% for x in cds %}
 
         <tr>
-          <td>{{x.id}}</td>
-          <td>{{x.titolo}}</td>
-          <td>{{x.artista}}</td>
-          <td>{{x.nazione}}</td>
-          <td>{{x.azienda}}</td>
-          <td>{{x.prezzo}}</td>
-          <td>{{x.anno}} </td>
+          <td><textarea rows="3" readonly>{{x.id}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.titolo}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.artista}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.nazione}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.azienda}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.prezzo}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.anno}}</textarea></td>
         </tr>
 
         {% endfor %}

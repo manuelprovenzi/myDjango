@@ -2,6 +2,11 @@ h1{
     color: red;
 }
 
+body{
+    user-select: none !important;
+
+}
+
 td,th,table{
     border: 2px solid black;
     border-collapse:collapse;
@@ -16,4 +21,8 @@ th{
     width: fit-content;
     height: fit-content;
 
+}
+
+textarea{
+    resize: none !important;
 }
