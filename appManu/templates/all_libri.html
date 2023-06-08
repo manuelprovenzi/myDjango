@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Libri</h1>
+<ul>
+    {% for x in libros %}
+      <li>{{ x.id}} {{ x.autore}} {{ x.titolo}} {{ x.genere}} {{ x.prezzo}} {{ x.data_pubblicazione}}  {{ x.descrizione}}</li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>

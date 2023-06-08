@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Cd</h1>
+<ul>
+    {% for x in cds %}
+      <li>{{ x.id}} {{ x.titolo}} {{ x.artista}} {{ x.nazione}} {{ x.azienda}} {{ x.prezzo}}  {{ x.anno}}</li>
+    {% endfor %}
+  </ul>
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGO>
+	<catalogo_libri>
+	   <libro id="bk101">
+		  <autore>Gambardella, Matthew</autore>
+		  <titolo>XML Developer's Guide</titolo>
+		  <genere>Computer</genere>
+		  <prezzo>44.95</prezzo>
+		  <data_pubblicazione>2000-10-01</data_pubblicazione>
+		  <descrizione>An in-depth look at creating applications with XML.</descrizione>
+	   </libro>
+	   <libro id="bk102">
+		  <autore>Ralls, Kim</autore>
+		  <titolo>Midnight Rain</titolo>
+		  <genere>Fantasy</genere>
+		  <prezzo>5.95</prezzo>
+		  <data_pubblicazione>2000-12-16</data_pubblicazione>
+		  <descrizione>A former architect battles corporate zombies, an evil sorceress, and her own childhood to become queen of the world.</descrizione>
+	   </libro>
+	   <libro id="bk103">
+		  <autore>Corets, Eva</autore>
+		  <titolo>Maeve Ascendant</titolo>
+		  <genere>Fantasy</genere>
+		  <prezzo>5.95</prezzo>
+		  <data_pubblicazione>2000-11-17</data_pubblicazione>
+		  <descrizione>After the collapse of a nanotechnology society in England, the young survivors lay the foundation for a new society.</descrizione>
+	   </libro>
+	   <libro id="bk104">
+		  <autore>Corets, Eva</autore>
+		  <titolo>Oberon's Legacy</titolo>
+		  <genere>Fantasy</genere>
+		  <prezzo>5.95</prezzo>
+		  <data_pubblicazione>2001-03-10</data_pubblicazione>
+		  <descrizione>In post-apocalypse England, the mysterious agent known only as Oberon helps to create a new life for the inhabitants of London. Sequel to Maeve Ascendant.</descrizione>
+	   </libro>
+	   <libro id="bk105">
+		  <autore>Corets, Eva</autore>
+		  <titolo>The Sundered Grail</titolo>
+		  <genere>Fantasy</genere>
+		  <prezzo>5.95</prezzo>
+		  <data_pubblicazione>2001-09-10</data_pubblicazione>
+		  <descrizione>The two daughters of Maeve, half-sisters, battle one another for control of England. Sequel to Oberon's Legacy.</descrizione>
+	   </libro>
+	   <libro id="bk106">
+		  <autore>Randall, Cynthia</autore>
+		  <titolo>Lover Birds</titolo>
+		  <genere>Romance</genere>
+		  <prezzo>4.95</prezzo>
+		  <data_pubblicazione>2000-09-02</data_pubblicazione>
+		  <descrizione>When Carla meets Paul at an ornithology conference, tempers fly as feathers get ruffled.</descrizione>
+	   </libro>
+	   <libro id="bk107">
+		  <autore>Thurman, Paula</autore>
+		  <titolo>Splish Splash</titolo>
+		  <genere>Romance</genere>
+		  <prezzo>4.95</prezzo>
+		  <data_pubblicazione>2000-11-02</data_pubblicazione>
+		  <descrizione>A deep sea diver finds true love twenty thousand leagues beneath the sea.</descrizione>
+	   </libro>
+	   <libro id="bk108">
+		  <autore>Knorr, Stefan</autore>
+		  <titolo>Creepy Crawlies</titolo>
+		  <genere>Horror</genere>
+		  <prezzo>4.95</prezzo>
+		  <data_pubblicazione>1996-12-06</data_pubblicazione>
+		  <descrizione>An anthology of horror stories about roaches, centipedes, scorpions  and other insects.</descrizione>
+	   </libro>
+	   <libro id="bk109">
+		  <autore>Kress, Peter</autore>
+		  <titolo>Paradox Lost</titolo>
+		  <genere>Science Fiction</genere>
+		  <prezzo>6.95</prezzo>
+		  <data_pubblicazione>1997-11-02</data_pubblicazione>
+		  <descrizione>After an inadvertant trip through a Heisenberg Uncertainty Device, James Salway discovers the problems of being quantum.</descrizione>
+	   </libro>
+	   <libro id="bk110">
+		  <autore>O'Brien, Tim</autore>
+		  <titolo>Microsoft .NET: The Programming Bible</titolo>
+		  <genere>Computer</genere>
+		  <prezzo>36.95</prezzo>
+		  <data_pubblicazione>1998-12-09</data_pubblicazione>
+		  <descrizione>Microsoft's .NET initiative is explored in detail in this deep programmer's reference.</descrizione>
+	   </libro>
+	   <libro id="bk111">
+		  <autore>O'Brien, Tim</autore>
+		  <titolo>MSXML3: A Comprehensive Guide</titolo>
+		  <genere>Computer</genere>
+		  <prezzo>36.95</prezzo>
+		  <data_pubblicazione>1999-12-01</data_pubblicazione>
+		  <descrizione>The Microsoft MSXML3 parser is covered in detail, with attention to XML DOM interfaces, XSLT processing, SAX and more.</descrizione>
+	   </libro>
+	   <libro id="bk112">
+		  <autore>Galos, Mike</autore>
+		  <titolo>Visual Studio 7: A Comprehensive Guide</titolo>
+		  <genere>Computer</genere>
+		  <prezzo>49.95</prezzo>
+		  <data_pubblicazione>2001-04-16</data_pubblicazione>
+		  <descrizione>Microsoft Visual Studio 7 is explored in depth, looking at how Visual Basic, Visual C++, C#, and ASP+ are integrated into a comprehensive development 
+		  environment.</descrizione>
+	   </libro>
+	</catalogo_libri>
+	<CATALOGO_CD>
+	  <CD id="cd101">
+		<TITOLO>Empire Burlesque</TITOLO>
+		<ARTISTA>Bob Dylan</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>Columbia</AZIENDA>
+		<PREZZO>10.90</PREZZO>
+		<ANNO>2003</ANNO>
+	  </CD>
+	  <CD id="cd102">
+		<TITOLO>Hide your heart</TITOLO>
+		<ARTISTA>Bonnie Tyler</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>CBS Records</AZIENDA>
+		<PREZZO>9.90</PREZZO>
+		<ANNO>2002</ANNO>
+	  </CD>
+	  <CD id="cd103">
+		<TITOLO>Greatest Hits</TITOLO>
+		<ARTISTA>Dolly Parton</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>RCA</AZIENDA>
+		<PREZZO>9.90</PREZZO>
+		<ANNO>2000</ANNO>
+	  </CD>
+	  <CD id="cd104">
+		<TITOLO>Still got the blues</TITOLO>
+		<ARTISTA>Gary Moore</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Virgin records</AZIENDA>
+		<PREZZO>10.20</PREZZO>
+		<ANNO>1990</ANNO>
+	  </CD>
+	  <CD id="cd105">
+		<TITOLO>Eros</TITOLO>
+		<ARTISTA>Eros Ramazzotti</ARTISTA>
+		<NAZIONE>EU</NAZIONE>
+		<AZIENDA>BMG</AZIENDA>
+		<PREZZO>9.90</PREZZO>
+		<ANNO>1997</ANNO>
+	  </CD>
+	  <CD id="cd106">
+		<TITOLO>One night only</TITOLO>
+		<ARTISTA>Bee Gees</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Polydor</AZIENDA>
+		<PREZZO>10.90</PREZZO>
+		<ANNO>1998</ANNO>
+	  </CD>
+	  <CD id="cd107">
+		<TITOLO>Sylvias Mother</TITOLO>
+		<ARTISTA>Dr.Hook</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>CBS</AZIENDA>
+		<PREZZO>8.10</PREZZO>
+		<ANNO>1973</ANNO>
+	  </CD>
+	  <CD id="cd108"> 
+		<TITOLO>Maggie May</TITOLO>
+		<ARTISTA>Rod Stewart</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Pickwick</AZIENDA>
+		<PREZZO>8.50</PREZZO>
+		<ANNO>1990</ANNO>
+	  </CD>
+	  <CD id="cd109">
+		<TITOLO>Romanza</TITOLO>
+		<ARTISTA>Andrea Bocelli</ARTISTA>
+		<NAZIONE>EU</NAZIONE>
+		<AZIENDA>Polydor</AZIENDA>
+		<PREZZO>10.80</PREZZO>
+		<ANNO>1996</ANNO>
+	  </CD>
+	  <CD id="cd110">
+		<TITOLO>When a man loves a woman</TITOLO>
+		<ARTISTA>Percy Sledge</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>Atlantic</AZIENDA>
+		<PREZZO>8.70</PREZZO>
+		<ANNO>1987</ANNO>
+	  </CD>
+	  <CD id="cd111">
+		<TITOLO>Black angel</TITOLO>
+		<ARTISTA>Savage Rose</ARTISTA>
+		<NAZIONE>EU</NAZIONE>
+		<AZIENDA>Mega</AZIENDA>
+		<PREZZO>10.90</PREZZO>
+		<ANNO>1995</ANNO>
+	  </CD>
+	  <CD id="cd112">
+		<TITOLO>1999 Grammy Nominees</TITOLO>
+		<ARTISTA>Many</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>Grammy</AZIENDA>
+		<PREZZO>10.20</PREZZO>
+		<ANNO>1999</ANNO>
+	  </CD>
+	  <CD id="cd113">
+		<TITOLO>For the good times</TITOLO>
+		<ARTISTA>Kenny Rogers</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Mucik Master</AZIENDA>
+		<PREZZO>8.70</PREZZO>
+		<ANNO>1995</ANNO>
+	  </CD>
+	  <CD id="cd114">
+		<TITOLO>Big Willie style</TITOLO>
+		<ARTISTA>Will Smith</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>Columbia</AZIENDA>
+		<PREZZO>9.90</PREZZO>
+		<ANNO>1997</ANNO>
+	  </CD>
+	  <CD id="cd115">
+		<TITOLO>Tupelo Honey</TITOLO>
+		<ARTISTA>Van Morrison</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Polydor</AZIENDA>
+		<PREZZO>8.20</PREZZO>
+		<ANNO>1971</ANNO>
+	  </CD>
+	  <CD id="cd116">
+		<TITOLO>Soulsville</TITOLO>
+		<ARTISTA>Jorn Hoel</ARTISTA>
+		<NAZIONE>Norway</NAZIONE>
+		<AZIENDA>WEA</AZIENDA>
+		<PREZZO>7.90</PREZZO>
+		<ANNO>1996</ANNO>
+	  </CD>
+	  <CD id="cd117">
+		<TITOLO>The very best of</TITOLO>
+		<ARTISTA>Cat Stevens</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Island</AZIENDA>
+		<PREZZO>8.90</PREZZO>
+		<ANNO>1990</ANNO>
+	  </CD>
+	  <CD id="cd118">
+		<TITOLO>Stop</TITOLO>
+		<ARTISTA>Sam Brown</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>A and M</AZIENDA>
+		<PREZZO>8.90</PREZZO>
+		<ANNO>1988</ANNO>
+	  </CD>
+	  <CD id="cd119">
+		<TITOLO>Bridge of Spies</TITOLO>
+		<ARTISTA>T'Pau</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Siren</AZIENDA>
+		<PREZZO>7.90</PREZZO>
+		<ANNO>1987</ANNO>
+	  </CD>
+	  <CD id="cd120">
+		<TITOLO>Private Dancer</TITOLO>
+		<ARTISTA>Tina Turner</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>Capitol</AZIENDA>
+		<PREZZO>8.90</PREZZO>
+		<ANNO>1983</ANNO>
+	  </CD>
+	  <CD id="cd121">
+		<TITOLO>Midt om natten</TITOLO>
+		<ARTISTA>Kim Larsen</ARTISTA>
+		<NAZIONE>EU</NAZIONE>
+		<AZIENDA>Medley</AZIENDA>
+		<PREZZO>7.80</PREZZO>
+		<ANNO>1983</ANNO>
+	  </CD>
+	  <CD id="cd122">
+		<TITOLO>Pavarotti Gala Concert</TITOLO>
+		<ARTISTA>Luciano Pavarotti</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>DECCA</AZIENDA>
+		<PREZZO>9.90</PREZZO>
+		<ANNO>1991</ANNO>
+	  </CD>
+	  <CD id="cd123">
+		<TITOLO>The dock of the bay</TITOLO>
+		<ARTISTA>Otis Redding</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>Stax Records</AZIENDA>
+		<PREZZO>7.90</PREZZO>
+		<ANNO>1968</ANNO>
+	  </CD>
+	  <CD id="cd124">
+		<TITOLO>Picture libro</TITOLO>
+		<ARTISTA>Simply Red</ARTISTA>
+		<NAZIONE>EU</NAZIONE>
+		<AZIENDA>Elektra</AZIENDA>
+		<PREZZO>7.20</PREZZO>
+		<ANNO>1985</ANNO>
+	  </CD>
+	  <CD id="cd125">
+		<TITOLO>Red</TITOLO>
+		<ARTISTA>The Communards</ARTISTA>
+		<NAZIONE>UK</NAZIONE>
+		<AZIENDA>London</AZIENDA>
+		<PREZZO>7.80</PREZZO>
+		<ANNO>1987</ANNO>
+	  </CD>
+	  <CD id="cd126">
+		<TITOLO>Unchain my heart</TITOLO>
+		<ARTISTA>Joe Cocker</ARTISTA>
+		<NAZIONE>USA</NAZIONE>
+		<AZIENDA>EMI</AZIENDA>
+		<PREZZO>8.20</PREZZO>
+		<ANNO>1987</ANNO>
+	  </CD>
+	</CATALOGO_CD>	
+</CATALOGO>
