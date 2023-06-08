@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+td,th,table{
+    border: 2px solid black;
+    border-collapse:collapse;
+}
+
+th{
+    font-size: 20px;
+}
+
+.divTable,.divTitle{
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+
+}

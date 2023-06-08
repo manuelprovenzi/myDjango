@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  {% load static %}
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
 <body>
 
-<h1>Cd</h1>
-<ul>
-    {% for x in cds %}
-      <li>{{ x.id}} {{ x.titolo}} {{ x.artista}} {{ x.nazione}} {{ x.azienda}} {{ x.prezzo}}  {{ x.anno}}</li>
-    {% endfor %}
-  </ul>
+  <div class="divTitle">
+    <h1>Cd</h1>
+  </div>
+
+
+  <div class="divTable">
+    <table>
+      <thead>
+        <tr>
+          <th>{{"id"}}</th>
+          <th>{{"titolo"}}</th>
+          <th>{{"artista"}}</th>
+          <th>{{"nazione"}}</th>
+          <th>{{"azienda"}}</th>
+          <th>{{"prezzo"}}</th>
+          <th>{{"anno"}} </th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for x in cds %}
+
+        <tr>
+          <td>{{x.id}}</td>
+          <td>{{x.titolo}}</td>
+          <td>{{x.artista}}</td>
+          <td>{{x.nazione}}</td>
+          <td>{{x.azienda}}</td>
+          <td>{{x.prezzo}}</td>
+          <td>{{x.anno}} </td>
+        </tr>
+
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
 </body>
+
 </html>
