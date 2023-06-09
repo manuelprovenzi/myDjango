@@ -77,9 +77,9 @@ def loadCd(path):
     
 def displayId(request,id):
   objSelected = Libro.objects.filter(id = id)
-  template = 'libro.html'
+  template = 'all_libri.html'
   context = {
-    'libros': objSelected.all().values(), #è uno solo ma in una query set
+    'libros': objSelected.all().values(), 
   }
   
   return TemplateResponse(request,template,context)
@@ -87,10 +87,28 @@ def displayId(request,id):
 
 def displayTitolo(request,titolo):
   objSelected = Libro.objects.filter(titolo = titolo)
-  template = 'libro.html'
+  template = 'all_libri.html'
   context = {
-    'libros': objSelected.all().values(), #è uno solo ma in una query set
+    'libros': objSelected.all().values(), 
   }
   
   return TemplateResponse(request,template,context)
 
+
+
+def displayAnno(request,anno):
+  objSelected = Cd.objects.all().filter(anno=anno)
+  template = "all_cd.html"
+  context = {
+    'cds':objSelected
+  }
+  return TemplateResponse(request,template,context)
+
+
+def displayIdCd(request,id):
+  objSelected = Cd.objects.all().filter(id=id)
+  template = "all_cd.html"
+  context = {
+    'cds':objSelected
+  }
+  return TemplateResponse(request,template,context)
