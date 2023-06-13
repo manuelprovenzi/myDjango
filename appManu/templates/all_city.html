@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% load static %}
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="divTitle">
+    <h1>City</h1>
+  </div>
+
+
+  <div class="divTable">
+    <table>
+      <thead>
+        <tr>
+          <th>{{"id"}}</th>
+          <th>{{"nome città"}}</th>
+          <th>{{"nome provincia"}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for x in cities %}
+
+        <tr>
+          <td><textarea rows="3" readonly>{{x.idCitta}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.nomeCitta}}</textarea></td>
+          <td><textarea rows="3" readonly>{{x.nomeProvincia}}</textarea></td>
+        </tr>
+
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>

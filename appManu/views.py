@@ -4,10 +4,14 @@ from django.template import loader
 from .models import Telefono
 from .models import Libro
 from .models import Cd
+from .models import City
+
 from django.core import serializers
 
 from django.template.response import TemplateResponse
 from .xmlFile import XMLSerializer as Serializer
+from .serializerCSV import SerializerCSV as SerialCsv
+
 
 def telefono(request):
   myphone = Telefono.objects.all().values()
@@ -16,6 +20,21 @@ def telefono(request):
     'myphone': myphone,
   }
   return TemplateResponse(request,template,context)
+
+def city(request):
+  cities = City.objects.all().values()
+  if len(cities)<1:
+    #load data
+    listCity = loadCity("C:/Users/Utente/OneDrive/Desktop/python/testServer/appManu/elenco.csv")   
+    
+    cities = City.objects.all().values()
+  
+  template = 'all_city.html'
+  context = {
+    'cities': cities,
+  }
+  return TemplateResponse(request,template,context)
+
 
 def libri(request):
   
@@ -45,6 +64,21 @@ def loadLibri(path):
     
   return listLibri 
   
+
+
+def loadCity(path):
+  sc = SerialCsv(path)
+  listString = sc.listString
+  listProvince = sc.listProvince
+  listCity=[]
+  for i in range(0,listString.__len__()):
+    cityModel = City()
+    cityModel.parse(i,listString[i],listProvince[i]) 
+    cityModel.save()
+    listCity.append(cityModel)
+    
+  return listCity 
+    
   
 def cd(request):
   

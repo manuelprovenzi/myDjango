@@ -28,6 +28,7 @@ urlpatterns = [
     path("graphql", csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema))),
     path("manu/telefoni",viewManu.telefono),
     path("manu/libri",viewManu.libri),
+    path("manu/city",viewManu.city),
     path("manu/cd",viewManu.cd),
     path("manu/cd/anno=<anno>",viewManu.displayAnno, name = "displayAnno"),
     path("manu/cd/id=<id>",viewManu.displayIdCd, name = "displayIdCd"),

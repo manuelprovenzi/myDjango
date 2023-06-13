@@ -69,3 +69,12 @@ class Cd(models.Model):
                 case "ANNO":
                     self.anno = attributo
                 
+class City(models.Model):
+    idCitta = models.IntegerField(primary_key=True,null=False)
+    nomeCitta = models.CharField(max_length=255,null=True)
+    nomeProvincia = models.CharField(max_length=255,null=True)
+
+    def parse(self,id,nomeCitta,nomeProvincia):
+        self.idCitta=id
+        self.nomeCitta=nomeCitta
+        self.nomeProvincia=nomeProvincia
