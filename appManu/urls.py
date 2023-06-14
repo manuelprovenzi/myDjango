@@ -33,6 +33,10 @@ urlpatterns = [
     path("manu/cd/anno=<anno>",viewManu.displayAnno, name = "displayAnno"),
     path("manu/cd/id=<id>",viewManu.displayIdCd, name = "displayIdCd"),
 
+    path("manu/city/id=<id>",viewManu.displayCityId,name="displayCityId"),
+    path("manu/city/nome=<nome>",viewManu.displayCityNome,name="displayCitynome"),
+
+
 
     path("manu/libri/titolo=<titolo>",viewManu.displayTitolo, name = "displayTitolo"),
     path("manu/libri/id=<id>",viewManu.displayId, name = "displayId")

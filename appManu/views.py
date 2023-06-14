@@ -146,3 +146,22 @@ def displayIdCd(request,id):
     'cds':objSelected
   }
   return TemplateResponse(request,template,context)
+
+
+
+def displayCityId(request,id):
+  objSelected = City.objects.filter(idCitta=id)
+  template="all_city.html"
+  context = {
+    'cities':objSelected
+  }
+  return TemplateResponse(request,template,context)
+
+
+def displayCityNome(request,nome):
+  objSelected = City.objects.filter(nomeCitta = nome)
+  template="all_city.html"
+  context = {
+    'cities':objSelected
+  }
+  return TemplateResponse(request,template,context)
