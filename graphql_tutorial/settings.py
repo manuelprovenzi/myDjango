@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'graphene_django',
-    'appManu'
+    'appManu',
+    'admin_numeric_filter'
 ]
 
 MIDDLEWARE = [
